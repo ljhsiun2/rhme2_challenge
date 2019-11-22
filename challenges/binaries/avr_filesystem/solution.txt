@@ -1,0 +1,5 @@
+"tokens" looked like hashes. Googling it turns out to be sha1. It probably does some sort of verification with the file name, but using sha1('cat.txt') and other variations directly don't give the direct token, so it's probably a mac instead (i.e. sha1(key || filenames))
+
+sha1 is vuln to length extension, so just steal code from a tool and you gucci
+
+FLAG:Inn0vat1on_w3nt_wr0ng :(

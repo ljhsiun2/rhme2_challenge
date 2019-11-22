@@ -1,0 +1,5 @@
+run program through gdb. after using disas main, you'll see a memcmp. Set a breakpoint near the actual memcmp and use x/32sb on the registers.
+
+easy peasy
+
+TH1S 1s s3cr3t!!

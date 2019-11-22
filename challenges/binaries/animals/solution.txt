@@ -1,0 +1,20 @@
+Binary takes user input and only users first char to determine if "cat", "dog", or "mouse". If you throw enough chars in (e.g. caaaaaaaaaaaaaaaaaaaaaaaaaaa) it crashes. Indicates buffer overflow.
+
+You can also notice weird characters show up at certain inputs, e.g. "c"*11 causes extra bytes to show up. Looked like addresses/pointers to where the ascii art is. Just overwrite them, and you gucci
+
+FLAG:
+ZOOEXPLOITATION
+      /
+     /
+  ___\______
+ / ___  ___ \
+/ / @ \/ @ \ \
+\ \___/\___/ /\
+ \____\/____/||
+ /     /\\\\\//
+ |     |\\\\\\
+  \      \\\\\\
+   \______/\\\\
+    _||_||_
+     -- --
+����������������

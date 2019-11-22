@@ -1,0 +1,9 @@
+Can order any drink when you get a coupon. Program takes (what I initially thought) was raw input and prints it to screen. So code probably looked like this:
+
+	scanf("What would you like to order \n %s", drink);
+	printf("%s\n", drink);
+
+Buffer overflow (seemingly) wasn't possible, so format string was next likely, which worked.
+
+string at address 0117: ||Y0u_4re_ev3n_w0rse_th4n_teh_C4s1no||
+
